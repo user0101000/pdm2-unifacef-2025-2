@@ -8,6 +8,10 @@ return (
       title="Ir para Detalhes"
       onPress={() => navigation.navigate('Detalhes')}
     />
+    <Button
+      title="Ir para Imagem"
+      onPress={() => navigation.navigate('Imagem')}
+    />
   </View>
  );
 }
