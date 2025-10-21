@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomeScreen from './screens/HomeScreen';
-import DetailsScreen from './screens/DetailsScreen';
+import DetailsScreen from './screens/IconScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,3 +16,5 @@ export default function App() {
      </NavigationContainer>
    );
 }
+
+// Verificar se instalei as dependências da AULA 04
