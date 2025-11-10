@@ -3,7 +3,7 @@ import {View, Text, Button, StyleSheet} from 'react-native'
 export default function HomeScreen({ navigation }) {  
   return <>
     <View style={styles.container}>
-      <Text style={styles.titulo}>Fausto Gonçalves Cintra</Text>
+      <Text style={styles.titulo}>Blanca Ribeiro Silva</Text>
       <Button
         title="Imagem da Internet"
         onPress={() => navigation.navigate('Imagem da Internet')}
