@@ -4,7 +4,7 @@ export default function LocalImageScreen({ navigation }) {
   return <>
     <View style={styles.container}>
       <Image 
-        source={require('../assets/chocolate.jpg')} 
+        source={require('../assets/chocolate.jpg')}
         style={{ width: 400, height: 400 }}
       />
       <Button
