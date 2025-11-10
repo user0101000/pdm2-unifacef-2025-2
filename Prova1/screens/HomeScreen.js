@@ -1,20 +1,20 @@
-import { View, Text, Button } from 'react-native';
+import {View, Text, Button, StyleSheet} from 'react-native'
 
-export default function HomeScreen({ navigation }) {
+export default function HomeScreen({ navigation }) {  
   return <>
-    <View>
-      <Text style={styles.titulo}>Tela Inicial</Text>
+    <View style={styles.container}>
+      <Text style={styles.titulo}>Fausto Gonçalves Cintra</Text>
       <Button
-        title="Ir para Detalhes"
-        onPress={() => navigation.navigate('Detalhes')}
+        title="Imagem da Internet"
+        onPress={() => navigation.navigate('Imagem da Internet')}
       />
       <Button
-        title="Ir para Imagem"
-        onPress={() => navigation.navigate('Imagem')}
+        title="Imagem local"
+        onPress={() => navigation.navigate('Imagem local')}
       />
       <Button
-        title="Ir para Imagem"
-        onPress={() => navigation.navigate('Imagem')}
+        title="Ícones"
+        onPress={() => navigation.navigate('Ícones')}
       />
     </View>
   </>
@@ -22,5 +22,5 @@ export default function HomeScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  titulo: { fontSize: 24, fontWeight: 'bold' }
+  titulo: { fontSize: 24 }
 });
