@@ -5,16 +5,12 @@ export default function HomeScreen({ navigation }) {
     <View style={styles.container}>
       <Text style={styles.titulo}>Blanca Ribeiro Silva</Text>
       <Button
-        title="Imagem da Internet"
-        onPress={() => navigation.navigate('Imagem da Internet')}
+        title="Meus compromissos"
+        onPress={() => navigation.navigate('Meus compromissos')}
       />
       <Button
-        title="Imagem local"
-        onPress={() => navigation.navigate('Imagem local')}
-      />
-      <Button
-        title="Ícones"
-        onPress={() => navigation.navigate('Ícones')}
+        title="Compromissos da equipe"
+        onPress={() => navigation.navigate('Compromissos da equipe')}
       />
     </View>
   </>

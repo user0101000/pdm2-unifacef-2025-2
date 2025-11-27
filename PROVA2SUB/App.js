@@ -1,8 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './screens/HomeScreen';
-import DayScreen from './screens/DayScreen';
-import WeekScreen from './screens/WeekScreen'  
+import CompromissosEquipe from './screens/CompromissosEquipe';
+import MeusCompromissos from './screens/MeusCompromissos'
 
 const Stack = createNativeStackNavigator();
 
@@ -11,8 +10,8 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Início" component={HomeScreen} />
-        <Stack.Screen name="Compromissos do dia" component={DayScreen} />
-        <Stack.Screen name="Compromissos da semana" component={WeekScreen} />
+        <Stack.Screen name="Meus compromissos" component={MeusCompromissos} />
+        <Stack.Screen name="Compromissos da equipe" component={CompromissosEquipe} />
       </Stack.Navigator>
     </NavigationContainer>
   );
